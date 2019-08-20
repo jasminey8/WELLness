@@ -51,4 +51,12 @@ function undo(){
 	document.getElementById("replaceImage").innerHTML = "<img src='Images/CheckinImages/moodGraph.png' class='img-fluid' width='510' height='370'>";
 }
 
+function yesNotifications(){
+	document.getElementById("Allow").innerHTML = "Allow";
+}
+
+function noNotifications(){
+	document.getElementById("Don't Allow").innerHTML = "Don't Allow";
+}
+
 
