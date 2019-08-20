@@ -1,0 +1,23 @@
+.bg-1 
+{ 
+ background-color: #faabda; /* Light Pink */
+	color: #000000;
+}
+
+
+.bg-2 
+{ 
+ background-color: #f37672; /* Salmon */
+	color: #000000;
+}
+
+h1{
+	text-align: center;
+	font-size: 30pt;
+}
+
+.navbar {
+white-space: nowrap;
+	   overflow-x: auto;
+
+}

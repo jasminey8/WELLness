@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<!--
+FILE NAME: targetsPage.html
+WRITTEN BY: Jasmine Yuan
+DATE: 4/3/19
+PURPOSE: cs220 Wellness Prototype
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+     <link href="P4Stylesheet.css" rel="stylesheet" type="text/css">
+  	 <script src="prototypeJS.js"></script>
+  	
+    <title>targets</title>
+  </head>
+
+<body style="background-color: #F5DBEA;">
+  	
+
+<nav class="navbar fixed-top navbar-light" style="background-color: #f37672;">
+  		<a class="nav-link" href="Home.html"><img src="Images/Logo Small.png" style="float:right" width="50" height="50"></a>  		  		
+  		
+  		<h1>Targets</h1>
+
+  		<a class="nav-link" href="Settings.html"><img src="Images/Settings.png" style="float:right" width="50" height="50"></a>
+  	</nav>
+	
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+
+
+ 		<div class="row">
+    <!-- responsive design -->
+      <div class="col-xs-12 col-md-12 col-lg-12 col-sm-12"> 
+<div class="container dropdown">
+    		
+
+<!-- checkboxes for practice type -->
+          <h3> Practice Types:</h3> 
+
+
+<div class="checkbox">
+  <label><input id="meditation" type="checkbox" value="checked">Meditation</label>
+</div>
+<div class="checkbox">
+  <label><input class="stretching" type="checkbox" value="checked">Stretching</label>
+</div>
+<div class="checkbox">
+  <label><input class="walking" type="checkbox" value="checked">Taking a Walk</label>
+</div>
+<div class="checkbox">
+  <label><input class="breathing" type="checkbox" value="checked">Deep Breathing</label>
+</div>
+<div class="checkbox">
+  <label><input class="journaling" type="checkbox" value="checked">Journaling</label>
+</div>
+<div class="checkbox">
+  <label>Other:</label>
+      <input id="otherPracType" type="text" value="" placeholder="Reading"></label>
+</div>
+<!-- <div id="meditation"></div>
+  <div id="stretching"></div>
+    <div id="walking"></div>
+      <div id="breathing"></div>
+        <div id="journaling"></div>
+  <div id="otherPracType"></div> -->
+<p>&nbsp;</p>
+ 
+<!-- selection list for practice time -->
+<div class="form-group">
+  <label for="practime"><h3> Practice Time:</h3></label>
+  <select class="form-control" id="practime">
+    <option>5 minutes</option>
+    <option>10 minutes</option>
+    <option>15 minutes</option>
+    <option>20 minutes</option>
+    <option>25 minutes</option>
+     <option>30 minutes</option>
+  </select>
+</div>
+
+<div id="pracTime"></div>
+
+<p>&nbsp;</p>
+
+<!-- selection list for frequency of practices -->
+<div class="form-group">
+  <label for="freq"><h3> Frequency:</h3> </label>
+  <select class="form-control" id="freq">
+    <option>1x per day</option>
+    <option>2x per day</option>
+    <option>3x per day</option>
+    <option>4x per day</option>
+    <option>5x per day</option>
+    <option>6x per day</option>
+    <option>7x per day</option>
+    <option>8x per day</option>
+    <option>9x per day</option>
+    <option>10x per day</option>
+  </select>
+</div>
+
+
+<p>&nbsp;</p>
+
+<!--  input form for sleep target hours -->
+<div class="form-group">
+  <label for="comment"><h3>Sleep:</h3></label>
+  <textarea class="form-control" rows="1" id="sleep" placeholder="8"></textarea>
+   <label for="comment">hours</label>
+</div>
+
+
+
+ <button id="save_button" onclick="save()">Save</button>
+ <div id="saved"></div>
+
+<p>&nbsp;</p>
+
+</div></div></div>
+    
+    <nav class="navbar fixed-bottom navbar-light" style="background-color: #f37672;">
+      <div id="calendarOption">
+      <a class="nav-link" href="Calendar.html"><img src="Images/Calendar.png" style="float:right" width="50" height="50"></a>
+    </div>
+  		<a class="nav-link" href="targetsPage.html"><img src="Images/Target.png" style="float:right" width="50" height="50"></a>
+  		<a class="nav-link" href="CheckInTab.html"><img src="Images/Checkin.png" style="float:right" width="50" height="50"></a>
+  		<a class="nav-link" href="Notifications.html"><img src="Images/Notification.png" style="float:right" width="50" height="50"></a>
+  	</nav>
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	</body>
+</html>

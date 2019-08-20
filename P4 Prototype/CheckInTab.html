@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--Head-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="P4Stylesheet.css">
+    <script src="prototypeJS.js"></script>
+    
+    <title>CheckIns</title>       	
+  	
+  </head>
+
+
+<!--Body-->
+<body style="background-color: #F5DBEA;">
+  	
+  <nav class="navbar fixed-top navbar-light" style="background-color: #f37672;">
+  	  <a class="nav-link" href="Home.html"><img src="Images/Logo Small.png" style="float:right" width="50" height="50"></a>  		
+      
+      <h1>Check-Ins</h1>
+
+      <a class="nav-link" href="Settings.html"><img src="Images/Settings.png" style="float:right" width="50" height="50"></a>
+    </nav>
+	
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+    <p>&nbsp;</p>
+
+<div class="container emojis">
+ 		
+    		<div class="col-xs-12">
+            <center>
+      			<h3>How are you feeling today?</h3>
+            </center>
+
+            <p>&nbsp;</p>
+
+            <!-- First row of emojis -->
+            <div class="row">
+              <div class="col">
+                <center>
+                  <div id="replaceSadEmojiImage">
+                  <img src="Images/CheckinImages/sad_emoji.png" width="50" height="50" class="img-fluid" onclick="clickSadEmoji()">
+                  </div>
+                </center>
+              </div>
+              <div class="col">
+                <center>
+                  <div id="replaceHappyEmojiImage">
+                  <img src="Images/CheckinImages/happy_emoji.png" width="50" height="50" class="img-fluid" onclick="clickHappyEmoji()">
+                  </div>
+                </center>
+              </div>
+              <div class="col">
+                <center>
+                  <img src="Images/CheckinImages/squirm_emoji.png" width="50" height="50" class="img-fluid">
+                </center>
+              </div>
+            </div>
+
+            <p>&nbsp;</p>
+
+            <!-- Second row of emojis -->
+            <div class="row">
+              <div class="col">
+                <center>
+                  <img src="Images/CheckinImages/complacent_emoji.png" width="50" height="50" class="img-fluid">
+                </center>
+              </div>
+              <div class="col">
+                <center>
+                  <img src="Images/CheckinImages/XoX_emoji.png" width="50" height="50" class="img-fluid">
+                </center>
+              </div>
+              <div class="col">
+                <center>
+                  <img src="Images/CheckinImages/gross_emoji.png" width="50" height="50" class="img-fluid">
+                </center>
+              </div>
+            </div>
+
+            <p>&nbsp;</p>
+
+            <!-- Second row of emojis -->
+            <div class="row">
+              <div class="col">
+                <center>
+                  <img src="Images/CheckinImages/complain_emoji.png" width="50" height="50" class="img-fluid">
+                </center>
+              </div>
+              <div class="col">
+                <center>
+                  <img src="Images/CheckinImages/hearteyes_emoji.png" width="50" height="50" class="img-fluid">
+                </center>
+              </div>
+              <div class="col">
+                <center>
+                  <img src="Images/CheckinImages/meh_emoji.png" width="50" height="50" class="img-fluid" >
+                </center>
+              </div>
+            </div>
+
+            <p>&nbsp;</p>
+
+            <center>
+            <button id="undo_button" onclick="undo()">Undo</button>
+            </center>
+
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+
+
+
+
+
+          <!-- graph -->
+          <div class="container bg-1">
+          <div class="row">
+          <div class="col">
+            <center>
+      			   <h4>Your Mood Ratios:</h4>
+                <div id="replaceImage">
+               <img src="Images/CheckinImages/moodGraph.png" class="img-fluid" width="510" height="370">
+          </div>
+               <p>&nbsp;</p>
+            </center>
+            </div>
+          </div>
+          </div>
+
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+
+          <!-- navigation bar -->
+    <nav class="navbar fixed-bottom navbar-light" style="background-color: #f37672;">
+  	  <a class="nav-link" href="Calendar.html"><img src="Images/Calendar.png" style="float:right" width="50" height="50"></a>
+      <a class="nav-link" href="targetsPage.html"><img src="Images/Target.png" style="float:right" width="50" height="50"></a>
+      <a class="nav-link" href="CheckInTab.html"><img src="Images/Checkin.png" style="float:right" width="50" height="50"></a>
+      <a class="nav-link" href="Notifications.html"><img src="Images/Notification.png" style="float:right" width="50" height="50"></a>
+    </nav>
+
+    		</div> 	 	 
+	</div>
+  		
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  		
+</body>
+</html>
